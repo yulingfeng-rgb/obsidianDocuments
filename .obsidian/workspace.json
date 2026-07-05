@@ -1,0 +1,247 @@
+{
+  "main": {
+    "id": "3bab39cc0e7733f6",
+    "type": "split",
+    "children": [
+      {
+        "id": "7affc7139dc85cda",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "de6aa24583ebb718",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "30-Resources/概念学习/开发工具/Git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Git"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5e66a70081bf10cc",
+    "type": "split",
+    "children": [
+      {
+        "id": "e930171cd8379c92",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5c31d06998cdd2b7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "4c4b690560a23edf",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          },
+          {
+            "id": "41499321f11a6ba1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 301.5
+  },
+  "right": {
+    "id": "dcc3d63d1b9477e6",
+    "type": "split",
+    "children": [
+      {
+        "id": "4f3adaf650d26800",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a4a9ac65d5557307",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "20-Areas/个人成长/个人发展/个人发展.md",
+                "collapseAll": false,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "个人发展 的反向链接列表"
+            }
+          },
+          {
+            "id": "39345576b2767e6e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "00-Inbox/问我.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "问我 的大纲"
+            }
+          },
+          {
+            "id": "c4b0aebbc0e31351",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "20-Areas/个人成长/个人发展/个人发展.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "个人发展 的出链列表"
+            }
+          },
+          {
+            "id": "aeda42b4624977de",
+            "type": "leaf",
+            "state": {
+              "type": "footnotes",
+              "state": {},
+              "icon": "lucide-file-signature",
+              "title": "脚注"
+            }
+          },
+          {
+            "id": "7b67f52b458e39d9",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "6f73f64042ca7aeb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 272.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "command-palette:打开命令面板": false,
+      "canvas:新建白板": false,
+      "workspaces:管理工作区布局": false,
+      "graph:查看关系图谱": false,
+      "markdown-importer:打开 Markdown 格式转换器": false
+    }
+  },
+  "active": "de6aa24583ebb718",
+  "lastOpenFiles": [
+    "30-Resources/概念学习/开发工具/Git.md",
+    "30-Resources/概念学习/开发工具/Linux.md",
+    "20-Areas/03-技术学习/文档工具/文档工具对比.md",
+    "20-Areas/03-技术学习/文档工具/Pandoc 教程.md",
+    "20-Areas/03-技术学习/文档工具/Typst 教程.md",
+    "20-Areas/03-技术学习/文档工具/LaTeX 教程.md",
+    "20-Areas/03-技术学习/文档工具/Markdown 教程.md",
+    "20-Areas/01-个人成长/考研规划/考研择校.md",
+    "20-Areas/01-个人成长/考研规划/考研记录.md",
+    "20-Areas/01-个人成长/个人发展/个人发展追踪.md",
+    "10-Projects/操作系统比赛/RK3588.md",
+    "10-Projects/操作系统比赛/AskingStar.md",
+    "10-Projects/操作系统比赛/项目入门.md",
+    "30-Resources/文件扩展名.md",
+    "30-Resources/概念学习/计算机专业课/离散数学.md",
+    "30-Resources/概念学习/计算机专业课/设计模式.md",
+    "30-Resources/概念学习/开发工具/Redis.md",
+    "30-Resources/概念学习/开发工具/Anaconda.md",
+    "30-Resources/概念学习/开发工具/Node.js与npm.md",
+    "30-Resources/概念学习/开发工具/Docker.md",
+    "30-Resources/概念学习/编程语言/Swift.md",
+    "30-Resources/概念学习/编程语言/Python.md",
+    "30-Resources/概念学习/编程语言/Kotlin.md",
+    "30-Resources/概念学习/编程语言/JavaScript.md",
+    "30-Resources/概念学习/编程语言/Java.md",
+    "30-Resources/概念学习/编程语言/HTML.md",
+    "30-Resources/概念学习/开发工具",
+    "30-Resources/概念学习/计算机专业课",
+    "10-Projects/考研/政治",
+    "10-Projects/考研/英语",
+    "10-Projects/考研/数学",
+    "10-Projects/考研/复试",
+    "10-Projects/考研/408/操作系统",
+    "10-Projects/考研/408/计算机组成原理",
+    "10-Projects/考研/408/计算机网络",
+    "10-Projects/考研/408/数据结构",
+    "10-Projects/proj/docs/img/images/system-overall-architecture.png",
+    "10-Projects/proj/docs/img/images/starry-sentinel-architecture.png",
+    "10-Projects/proj/docs/img/images/software-architecture.png",
+    "10-Projects/proj/docs/img/images/rk3588-starryos-boot-chain.png",
+    "10-Projects/proj/docs/img/images/rk3588-hardware-architecture.png",
+    "10-Projects/proj/docs/img/images/rk3588-edge-board.png",
+    "10-Projects/proj/docs/img/images/requirement-priority-matrix.png",
+    "10-Projects/proj/docs/img/images/qemu-boot-success.png",
+    "10-Projects/proj/docs/img/images/project-structure.png",
+    "10-Projects/proj/docs/img/images/development-timeline.png",
+    "try.canvas"
+  ]
+}

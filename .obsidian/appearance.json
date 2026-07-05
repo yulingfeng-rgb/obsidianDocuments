@@ -1,0 +1,13 @@
+{
+  "baseFontSize": 16,
+  "cssTheme": "Border",
+  "accentColor": "#75b2e1",
+  "theme": "system",
+  "enabledCssSnippets": [],
+  "textFontFamily": "",
+  "monospaceFontFamily": "Consolas",
+  "showViewHeader": false,
+  "showRibbon": true,
+  "baseFontSizeAction": true,
+  "nativeMenus": false
+}

@@ -1,0 +1,15 @@
+{
+  "promptDelete": false,
+  "newFileLocation": "current",
+  "attachmentFolderPath": "./attachments",
+  "alwaysUpdateLinks": true,
+  "deleteUnlinkedAttachments": "always",
+  "showLineNumber": true,
+  "readableLineLength": false,
+  "showInlineTitle": false,
+  "focusNewTab": true,
+  "showIndentGuide": false,
+  "smartIndentList": true,
+  "vimMode": false,
+  "autoConvertHtml": true
+}
