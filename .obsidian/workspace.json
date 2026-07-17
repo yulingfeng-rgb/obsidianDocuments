@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7affc7139dc85cda",
+        "id": "3406d4f48d1f89a5",
         "type": "tabs",
         "children": [
           {
-            "id": "de6aa24583ebb718",
+            "id": "fbde1b303be6f2cb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30-Resources/概念学习/开发工具/Git.md",
+                "file": "10-Projects/考研/408/数据结构/绪论.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Git"
+              "title": "绪论"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 301.5
+    "width": 227.50152587890625
   },
   "right": {
     "id": "dcc3d63d1b9477e6",
@@ -94,8 +94,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "20-Areas/个人成长/个人发展/个人发展.md",
-                "collapseAll": false,
+                "file": "10-Projects/操作系统比赛/RK3588.md",
+                "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "个人发展 的反向链接列表"
+              "title": "RK3588 的反向链接列表"
             }
           },
           {
@@ -113,13 +113,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-Inbox/问我.md",
+                "file": "00-Inbox/SG-T1.5-HR-RC-digitalset-first-development-test-plan.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "问我 的大纲"
+              "title": "SG-T1.5-HR-RC-digitalset-first-development-test-plan 的大纲"
             }
           },
           {
@@ -128,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "20-Areas/个人成长/个人发展/个人发展.md",
+                "file": "10-Projects/操作系统比赛/RK3588.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "个人发展 的出链列表"
+              "title": "RK3588 的出链列表"
             }
           },
           {
@@ -141,7 +141,9 @@
             "type": "leaf",
             "state": {
               "type": "footnotes",
-              "state": {},
+              "state": {
+                "file": "10-Projects/操作系统比赛/RK3588.md"
+              },
               "icon": "lucide-file-signature",
               "title": "脚注"
             }
@@ -180,7 +182,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 272.5,
+    "width": 239.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -194,44 +196,44 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "de6aa24583ebb718",
+  "active": "5c31d06998cdd2b7",
   "lastOpenFiles": [
-    "30-Resources/概念学习/开发工具/Git.md",
-    "30-Resources/概念学习/开发工具/Linux.md",
-    "20-Areas/03-技术学习/文档工具/文档工具对比.md",
-    "20-Areas/03-技术学习/文档工具/Pandoc 教程.md",
-    "20-Areas/03-技术学习/文档工具/Typst 教程.md",
-    "20-Areas/03-技术学习/文档工具/LaTeX 教程.md",
-    "20-Areas/03-技术学习/文档工具/Markdown 教程.md",
-    "20-Areas/01-个人成长/考研规划/考研择校.md",
-    "20-Areas/01-个人成长/考研规划/考研记录.md",
-    "20-Areas/01-个人成长/个人发展/个人发展追踪.md",
-    "10-Projects/操作系统比赛/RK3588.md",
-    "10-Projects/操作系统比赛/AskingStar.md",
-    "10-Projects/操作系统比赛/项目入门.md",
-    "30-Resources/文件扩展名.md",
-    "30-Resources/概念学习/计算机专业课/离散数学.md",
-    "30-Resources/概念学习/计算机专业课/设计模式.md",
-    "30-Resources/概念学习/开发工具/Redis.md",
-    "30-Resources/概念学习/开发工具/Anaconda.md",
-    "30-Resources/概念学习/开发工具/Node.js与npm.md",
-    "30-Resources/概念学习/开发工具/Docker.md",
-    "30-Resources/概念学习/编程语言/Swift.md",
-    "30-Resources/概念学习/编程语言/Python.md",
-    "30-Resources/概念学习/编程语言/Kotlin.md",
-    "30-Resources/概念学习/编程语言/JavaScript.md",
-    "30-Resources/概念学习/编程语言/Java.md",
-    "30-Resources/概念学习/编程语言/HTML.md",
-    "30-Resources/概念学习/开发工具",
-    "30-Resources/概念学习/计算机专业课",
-    "10-Projects/考研/政治",
-    "10-Projects/考研/英语",
-    "10-Projects/考研/数学",
-    "10-Projects/考研/复试",
-    "10-Projects/考研/408/操作系统",
-    "10-Projects/考研/408/计算机组成原理",
-    "10-Projects/考研/408/计算机网络",
-    "10-Projects/考研/408/数据结构",
+    "10-Projects/考研/政治/形势与政策.md",
+    "10-Projects/考研/政治/习思想.md",
+    "10-Projects/考研/政治/近代史.md",
+    "10-Projects/考研/政治/毛中特.md",
+    "10-Projects/考研/政治/思政.md",
+    "10-Projects/考研/政治/马原.md",
+    "10-Projects/考研/408/数据结构/线性表.md",
+    "10-Projects/考研/408/数据结构/图.md",
+    "10-Projects/考研/408/数据结构/树.md",
+    "10-Projects/考研/408/数据结构/串.md",
+    "10-Projects/考研/408/数据结构/查找.md",
+    "10-Projects/考研/政治/习思想/习近平新时代中国特色社会主义思想概论.md",
+    "10-Projects/考研/政治/思政/思想道德与法治.md",
+    "10-Projects/考研/政治/毛中特/毛泽东思想和中国特色社会主义理论体系概论.md",
+    "10-Projects/考研/政治/马原/马克思主义基本原理.md",
+    "10-Projects/考研/政治/近代史/中国近现代史纲要.md",
+    "10-Projects/考研/英语/作文.md",
+    "10-Projects/考研/英语/阅读.md",
+    "10-Projects/考研/英语/听力.md",
+    "10-Projects/考研/英语/词汇.md",
+    "10-Projects/考研/数学/线性代数.md",
+    "10-Projects/考研/数学/高等数学.md",
+    "10-Projects/考研/数学/概率论.md",
+    "30-Resources/概念学习/工程实践/项目管理.md",
+    "30-Resources/概念学习/工程实践/软件测试.md",
+    "30-Resources/概念学习/计算机专业课/数字电路.md",
+    "10-Projects/考研/政治/形势与政策",
+    "10-Projects/考研/政治/习思想",
+    "10-Projects/考研/政治/近代史",
+    "10-Projects/考研/政治/毛中特",
+    "10-Projects/考研/政治/思政",
+    "10-Projects/考研/政治/马原",
+    "未确认 543024.crdownload",
+    "30-Resources/概念学习/AI专业课",
+    "30-Resources/概念学习/技术管理",
+    "30-Resources/概念学习/工程实践",
     "10-Projects/proj/docs/img/images/system-overall-architecture.png",
     "10-Projects/proj/docs/img/images/starry-sentinel-architecture.png",
     "10-Projects/proj/docs/img/images/software-architecture.png",

@@ -4,10 +4,11 @@
   "accentColor": "#75b2e1",
   "theme": "system",
   "enabledCssSnippets": [],
-  "textFontFamily": "",
-  "monospaceFontFamily": "Consolas",
-  "showViewHeader": false,
+  "textFontFamily": "霞鹜文楷",
+  "monospaceFontFamily": "JetBrains Mono",
+  "showViewHeader": true,
   "showRibbon": true,
   "baseFontSizeAction": true,
-  "nativeMenus": false
+  "nativeMenus": false,
+  "interfaceFontFamily": "霞鹜文楷"
 }

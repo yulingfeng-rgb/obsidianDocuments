@@ -1,4 +1,4 @@
-# Boot Supervisor 与 Star Sentinel（哨兵）
+# Boot Supervisor 与 Star Sentinel
 
 ---
 
@@ -574,25 +574,7 @@ Boot Supervisor 的 Monitor 输出可以为 AskingStar 的 BoardReal 证据链�
 
 ---
 
-## 九、代码统计
-
-| 类别 | 数量 |
-| --- | --- |
-| 总文件数 | 75+ |
-| core/ 核心模块 | 11 |
-| handlers/ 处理器 | 8 |
-| monitors/ 监控器 | 8 |
-| observers/ 观察者 | 3 |
-| adapters/ 适配器 | 9 |
-| plugins/repair/ 修复插件 | 7 |
-| spi/ 协议定义 | 2 |
-| tools/ 工具 | 2 |
-| config/ 配置 | 2 |
-| tests/ 测试 | 17 |
-
----
-
-## 十、常见问题 FAQ
+## 九、常见问题 FAQ
 
 **Q1：Boot Supervisor 运行在哪里？**
 - 运行在 Host 侧（开发机），不是 StarryOS 内核内部组件
