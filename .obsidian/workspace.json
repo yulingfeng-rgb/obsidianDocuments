@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "3406d4f48d1f89a5",
+        "id": "2c4cf6e99f04d1cd",
         "type": "tabs",
         "children": [
           {
-            "id": "fbde1b303be6f2cb",
+            "id": "b5abb3d5b085a3c5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "10-Projects/考研/408/数据结构/绪论.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "绪论"
+              "title": "新标签页"
             }
           }
         ]
@@ -41,7 +37,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -78,7 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 227.50152587890625
+    "width": 327.5
   },
   "right": {
     "id": "dcc3d63d1b9477e6",
@@ -113,13 +111,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-Inbox/SG-T1.5-HR-RC-digitalset-first-development-test-plan.md",
+                "file": "答辩材料.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "SG-T1.5-HR-RC-digitalset-first-development-test-plan 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -182,13 +180,11 @@
       }
     ],
     "direction": "horizontal",
-    "width": 239.5,
+    "width": 291.833251953125,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "templater-obsidian:Templater": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "command-palette:打开命令面板": false,
       "canvas:新建白板": false,
       "workspaces:管理工作区布局": false,
@@ -198,52 +194,52 @@
   },
   "active": "5c31d06998cdd2b7",
   "lastOpenFiles": [
-    "10-Projects/考研/政治/形势与政策.md",
-    "10-Projects/考研/政治/习思想.md",
-    "10-Projects/考研/政治/近代史.md",
-    "10-Projects/考研/政治/毛中特.md",
-    "10-Projects/考研/政治/思政.md",
-    "10-Projects/考研/政治/马原.md",
-    "10-Projects/考研/408/数据结构/线性表.md",
-    "10-Projects/考研/408/数据结构/图.md",
-    "10-Projects/考研/408/数据结构/树.md",
-    "10-Projects/考研/408/数据结构/串.md",
-    "10-Projects/考研/408/数据结构/查找.md",
-    "10-Projects/考研/政治/习思想/习近平新时代中国特色社会主义思想概论.md",
-    "10-Projects/考研/政治/思政/思想道德与法治.md",
-    "10-Projects/考研/政治/毛中特/毛泽东思想和中国特色社会主义理论体系概论.md",
-    "10-Projects/考研/政治/马原/马克思主义基本原理.md",
-    "10-Projects/考研/政治/近代史/中国近现代史纲要.md",
-    "10-Projects/考研/英语/作文.md",
-    "10-Projects/考研/英语/阅读.md",
-    "10-Projects/考研/英语/听力.md",
-    "10-Projects/考研/英语/词汇.md",
-    "10-Projects/考研/数学/线性代数.md",
-    "10-Projects/考研/数学/高等数学.md",
-    "10-Projects/考研/数学/概率论.md",
-    "30-Resources/概念学习/工程实践/项目管理.md",
-    "30-Resources/概念学习/工程实践/软件测试.md",
-    "30-Resources/概念学习/计算机专业课/数字电路.md",
-    "10-Projects/考研/政治/形势与政策",
-    "10-Projects/考研/政治/习思想",
-    "10-Projects/考研/政治/近代史",
-    "10-Projects/考研/政治/毛中特",
-    "10-Projects/考研/政治/思政",
-    "10-Projects/考研/政治/马原",
-    "未确认 543024.crdownload",
-    "30-Resources/概念学习/AI专业课",
-    "30-Resources/概念学习/技术管理",
-    "30-Resources/概念学习/工程实践",
-    "10-Projects/proj/docs/img/images/system-overall-architecture.png",
-    "10-Projects/proj/docs/img/images/starry-sentinel-architecture.png",
-    "10-Projects/proj/docs/img/images/software-architecture.png",
-    "10-Projects/proj/docs/img/images/rk3588-starryos-boot-chain.png",
-    "10-Projects/proj/docs/img/images/rk3588-hardware-architecture.png",
-    "10-Projects/proj/docs/img/images/rk3588-edge-board.png",
-    "10-Projects/proj/docs/img/images/requirement-priority-matrix.png",
-    "10-Projects/proj/docs/img/images/qemu-boot-success.png",
-    "10-Projects/proj/docs/img/images/project-structure.png",
-    "10-Projects/proj/docs/img/images/development-timeline.png",
+    "学习/文件扩展名.md",
+    "学习/软件架构/高可用架构.md",
+    "学习/软件架构/领域驱动设计.md",
+    "学习/软件架构/架构模式.md",
+    "学习/软件架构/存储系统.md",
+    "学习/软件架构/分布式系统.md",
+    "学习/软件架构/云原生架构.md",
+    "学习/软件架构/中间件.md",
+    "学习/软件架构/API设计.md",
+    "学习/软件架构",
+    "学习/计算机专业课/计算机网络.md",
+    "学习/计算机专业课/计算机组成原理.md",
+    "学习/计算机专业课/软件工程.md",
+    "学习/计算机专业课/设计模式.md",
+    "学习/计算机专业课/计算机图形学.md",
+    "学习/计算机专业课/正则表达式.md",
+    "学习/计算机专业课/算法设计与分析.md",
+    "学习/计算机专业课/编译原理.md",
+    "学习/计算机专业课/数据结构.md",
+    "学习/计算机专业课/数据库原理.md",
+    "学习/计算机专业课/操作系统.md",
+    "学习/计算机专业课/数字电路.md",
+    "学习/计算机专业课/可视化.md",
+    "学习/计算机专业课/区块链.md",
+    "学习/计算机专业课/UML.md",
+    "学习/计算机专业课/DSL.md",
+    "学习/计算机专业课",
+    "学习/编程语言/TypeScript.md",
+    "学习/编程语言",
+    "学习/智能系统",
+    "学习/技术管理",
+    "学习/开发工具",
+    "学习/工程实践",
+    "学习/嵌入式系统",
+    "学习/安全",
+    "学习/产品设计",
+    "final/03蓝色标志.png",
+    "final/02汉雨 HanRain 标志.png",
+    "final/01概念.png",
+    "周报/图片和附件/charts/02-同构workload时延对比.png",
+    "周报/图片和附件/charts/03-稳定性CV对比.png",
+    "周报/图片和附件/charts/04-NPU跨系统时延对比.png",
+    "周报/图片和附件/charts/05-AskingStar三臂AB.png",
+    "周报/图片和附件/charts/06-观察者开销.png",
+    "周报/图片和附件/charts/07-HMXRG-MIR工作消除.png",
+    "周报/图片和附件/charts/08-板端样本工作量.png",
     "try.canvas"
   ]
 }

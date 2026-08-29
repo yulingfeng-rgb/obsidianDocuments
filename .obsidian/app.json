@@ -1,7 +1,7 @@
 {
   "promptDelete": false,
   "newFileLocation": "current",
-  "attachmentFolderPath": "./attachments",
+  "attachmentFolderPath": "Assets",
   "alwaysUpdateLinks": true,
   "deleteUnlinkedAttachments": "always",
   "showLineNumber": true,
@@ -14,5 +14,12 @@
   "autoConvertHtml": true,
   "strictLineBreaks": false,
   "spellcheck": false,
-  "autoPairBrackets": true
+  "autoPairBrackets": true,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }
