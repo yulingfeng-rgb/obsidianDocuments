@@ -306,7 +306,7 @@ deactivate                        # 退出虚拟环境
 
 - pip-tools：用 `pip-compile` 把 `requirements.in` 编译成精确锁版本的 `requirements.txt`
 - poetry：现代化的依赖管理与打包工具，类似 Node 的 npm
-- conda：科学计算场景常用，能装非 Python 依赖（如 CUDA、MKL），详见 [[Anaconda]]
+- conda：科学计算场景常用，能装非 Python 依赖（如 CUDA、MKL），详见 [[conda]]
 - uv：Rust 写的极速 pip 替代品，2024 年起流行
 
 ### 依赖文件规范

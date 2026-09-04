@@ -274,4 +274,3 @@ A: `<!DOCTYPE html>` 告诉浏览器用"标准模式"渲染页面。不写或写
 ### Q: meta 标签有什么作用？
 A: meta 标签提供页面的元信息，不显示在页面上。常见用途：声明字符编码（`charset="UTF-8"`）、设置视口（移动端适配）、SEO 描述（keywords/description）、社交媒体卡片（Open Graph）。是页面"看不见但很重要"的配置。
 
-

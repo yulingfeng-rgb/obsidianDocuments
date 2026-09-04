@@ -335,4 +335,3 @@ A: async/await 是 Promise 的语法糖。async 函数返回 Promise，await 等
 ### Q: JavaScript 是单线程怎么处理并发？
 A: JS 主线程是单线程，但有事件循环（Event Loop）。I/O 操作（网络请求、定时器）交给浏览器/Node 的底层多线程处理，完成后回调进入任务队列。主线程空闲时从队列取回调执行。所以 JS 能"同时"处理多个 I/O 而不阻塞。
 
-
