@@ -216,3 +216,13 @@ REST 是一种基于 HTTP 的 API 设计风格，以资源为中心，用标准 
 - RESTful API 设计指南：[https://restfulapi.net](https://restfulapi.net)
 - OpenAPI 规范：[https://www.openapis.org](https://www.openapis.org)
 - Postman：[https://www.postman.com](https://www.postman.com)
+
+---
+
+## 端到端实践与评估
+
+- **实践任务**：封装一个具备超时、指数退避、幂等键、限流和结构化错误的客户端。
+- **评估要求**：记录请求 ID、状态码、延迟、重试次数与用量，使用 mock 和契约测试覆盖失败。
+- **失败边界**：不要无限重试或记录敏感正文；超时结果未知时须避免重复产生副作用。
+
+实验记录至少包含问题定义、数据来源与版本、基线、配置、指标、失败样本和结论适用范围。只有结果可复现、误差可解释，模型改进才有可信度。

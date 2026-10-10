@@ -5,7 +5,7 @@
   "theme": "system",
   "enabledCssSnippets": [],
   "textFontFamily": "霞鹜文楷",
-  "monospaceFontFamily": "JetBrains Mono",
+  "monospaceFontFamily": "Consolas",
   "showViewHeader": true,
   "showRibbon": true,
   "baseFontSizeAction": true,

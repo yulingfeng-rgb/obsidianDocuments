@@ -477,3 +477,14 @@ shellcheck myscript.sh
   - [Bash 官方手册](https://www.gnu.org/software/bash/manual/)
   - [ShellCheck 在线工具](https://www.shellcheck.net/)
   - [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line)
+
+---
+
+## 工程实践路线
+
+- **最小项目**：完成一个可重复执行的环境初始化脚本，先写清输入、输出和失败行为，再逐步增加功能。
+- **刻意练习**：重点验证引用与展开、管道退出码、函数、参数解析和幂等性，不要只记语法片段。
+- **质量门槛**：至少具备格式化、静态检查、单元测试和可重复构建；提交前检查依赖、日志与敏感信息。
+- **重点避坑**：未引用变量、忽略失败、破坏性通配符；启用严格模式并用 ShellCheck。
+
+判断“学会”不以看完教程为准，而以能独立定位报错、解释语言机制、写出测试并说明该语言不适合什么场景为准。

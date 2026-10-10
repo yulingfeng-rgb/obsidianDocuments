@@ -148,3 +148,12 @@ DeepSeek 平台（`platform.deepseek.com`）端点为 `api.deepseek.com`，模�
 - 通义千问：`tongyi.aliyun.com`
 - OpenAI API 文档：`platform.openai.com/docs`
 - Prompt 工程指南：`platform.openai.com/docs/guides/prompt-engineering`
+
+---
+
+## 可执行实践闭环
+
+1. **练习任务**：对同一问题进行提问、核验、改写三轮，并记录来源。
+2. **完成标准**：把事实、推断和建议分开；高风险或时效性信息回到一手来源确认。
+3. **排错顺序**：避免上传秘密和个人数据，不把流畅表达当成正确性证据。
+4. **沉淀结果**：保留最小示例、关键命令、失败现象与解决依据；过一周不看原文重新完成一次。

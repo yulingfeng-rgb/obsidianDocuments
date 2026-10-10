@@ -173,12 +173,10 @@
 - Visual Studio Code：轻量级代码编辑器
 - IntelliJ IDEA：Java 集成开发环境
 - Trae CN：字节跳动的 AI IDE
-- Qoder：阿里的 AI IDE
 - ChatGPT：AI 助手
 - Claude Code + API：AI CLI 工具
 - CCSwitch：Claude Code 模型切换工具
 - Apifox：API 调试、测试与文档管理
-- VMware：虚拟机平台
 - Obsidian：Markdown 知识管理软件
 
 ---
@@ -237,3 +235,13 @@
 - Steam：游戏平台
 - UU 加速器：游戏网络加速
 - Xbox Game Bar：Windows 游戏工具
+
+---
+
+## 系统实践与验收
+
+- **最小系统**：建立一份可重建清单：系统版本、硬件驱动、包管理器、终端、语言运行时和关键配置。
+- **验收方法**：用脚本输出版本与路径，但不记录许可证、token、序列号、Wi-Fi 密码等秘密。
+- **边界与风险**：设备状态随更新变化；本页应标注采集日期，并把个人资产信息与通用知识分开。
+
+实践记录应包含版本、连接或部署拓扑、关键配置、原始现象、测量方法和恢复步骤，使别人能够在不同环境中复现并判断差异。

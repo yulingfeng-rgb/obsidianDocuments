@@ -1,6 +1,6 @@
-# 本地 Agent 编程工具指南
+# 本地 Agent 工具
 
-> 本地 Agent 工具指能直接读取代码库、修改文件、执行 shell 命令、跑测试的 AI 编程代理，如 Claude Code、Codex、Cursor、Trae、Qoder、Windsurf 等。它不是"能聊代码的聊天框"，而是真正动手干活的"使唤 AI"。本文梳理主流工具对比、通用核心概念、低成本接国产模型方案与轮次开发工作流。
+> 本地 Agent 工具指能直接读取代码库、修改文件、执行 shell 命令、跑测试的 AI 编程代理，如 Claude Code、Codex、Cursor、Trae、Qoder、Workbuddy 等。它不是"能聊代码的聊天框"，而是真正动手干活的"使唤 AI"。本文梳理主流工具对比、通用核心概念与轮次开发工作流。
 
 **关键词**：Claude Code、Codex、Cursor、Trae、AI 编程代理、AGENTS.md、国产模型
 
@@ -36,15 +36,14 @@ flowchart LR
 
 ## 二、主流工具对比
 
-| 工具 | 形态 | 厂商/模型 | 特点 |
-| --- | --- | --- | --- |
-| Claude Code | CLI | Anthropic / Claude | 工程化能力口碑最佳，支持接兼容 API |
-| Codex | CLI + 桌面版 | OpenAI / GPT-5-codex | 专为编程优化，沙箱完善，ChatGPT 订阅可用 |
-| Cursor | AI 原生 IDE | 多模型可选 | 集成度最高，Tab 补全 + Agent 模式 |
-| Windsurf | AI 原生 IDE | 多模型 | 类 Cursor，Agent 流畅 |
-| Trae | AI IDE | 字节跳动 / 多模型 | 国内可直接用，免费额度大 |
-| Qoder | AI IDE | 阿里 / 多模型 | 国产新锐，Quest 模式异步执行任务 |
-| GitHub Copilot | IDE 插件 | GitHub / GPT | 补全为主，Agent 模式后起 |
+| 工具             | 形态        | 厂商/模型        | 特点                       |
+| -------------- | --------- | ------------ | ------------------------ |
+| Claude Code    | CLI       | Anthropic    | 工程化能力口碑最佳，支持接兼容 API      |
+| Codex          | CLI + 桌面版 | OpenAI       | 专为编程优化，沙箱完善，ChatGPT 订阅可用 |
+| Cursor         | AI 原生 IDE | 多模型可选        | 集成度最高，Tab 补全 + Agent 模式  |
+| Trae           | AI IDE    | 字节跳动 / 多模型   | 国内可直接用，免费额度大             |
+| Qoder          | AI IDE    | 阿里 / 多模型     | 国产新锐，Quest 模式异步执行任务      |
+| GitHub Copilot | IDE 插件    | GitHub / GPT | 补全为主，Agent 模式后起          |
 
 **选型思路**：
 
@@ -67,7 +66,7 @@ flowchart LR
 | 自动编辑 | 文件自动改，命令需批准 | 重构、批量重命名、重复性编辑 |
 | 全自动 | 沙箱内自主读写执行 | 修构建错误、原型开发、长任务 |
 
-**推荐配置阶梯**：第一周用只读模式（只看不改）→ 熟悉后允许写工作区但每步审批 → 再放开到"失败才问"。永远不要一开始就给完全访问权限。
+**推荐配置阶梯**：先用只读模式（只看不改）→ 熟悉后允许写工作区但每步审批 → 再放开到"失败才问"。永远不要一开始就给完全访问权限。
 
 ### 3.2 沙箱与审批
 
@@ -75,7 +74,7 @@ flowchart LR
 - **审批策略**（什么时候停下来问）：每次都问 → 失败再问 → 从不打断（危险）
 - **安全建议**：在 Git 仓库内运行便于回滚；重要操作前 `git status` 确认工作区干净；不熟悉的命令让它解释后再批准
 
-### 3.3 规则文件（AGENTS.md / .cursorrules）
+### 3.3 规则文件（AGENTS.md）
 
 给 Agent 的"项目说明书"（"项目宪法"），放项目根目录，启动时自动读取，解决"每次都要重复说明项目规则"的痛点。内容应包括：
 
@@ -83,7 +82,7 @@ flowchart LR
 - 测试方式：测试框架、测试命令、预期输出
 - 目录禁区：哪些目录绝对不能碰
 - 编码规范：命名、缩进、注释风格
-- 环境与依赖清单：已装什么、未装什么（避免 Agent 盲目调用不存在的工具）
+- 环境与依赖清单：已装什么、未装什么（避免 Agent 盲目调用工具）
 - 已知坑点和注意事项
 
 Cursor 用 `.cursorrules`，Trae/Qoder 有各自的 Rules 配置，Claude Code 与 Codex 用 `AGENTS.md`（Codex 的 `/init` 会自动生成初稿）。
@@ -308,3 +307,12 @@ Agent 类 IDE 的 diff 面板通常只显示最新一次对话的改动。推荐
 - CC Switch：`github.com/farion1231/cc-switch`
 - MCP 协议：`modelcontextprotocol.io`
 - Cursor：`cursor.com`　Trae：`trae.cn`　Qoder：`qoder.com`
+
+---
+
+## 可执行实践闭环
+
+1. **练习任务**：让 Agent 完成一次小改动，并要求其先读规则、后测试、再报告 diff。
+2. **完成标准**：权限按最小化开放，提示词包含目标、边界、验收标准和禁止事项。
+3. **排错顺序**：先审查计划、命令和 diff；涉及删除、凭据、发布时必须人工把关。
+4. **沉淀结果**：保留最小示例、关键命令、失败现象与解决依据；过一周不看原文重新完成一次。

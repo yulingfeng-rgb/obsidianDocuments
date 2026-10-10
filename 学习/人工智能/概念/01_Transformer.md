@@ -313,3 +313,13 @@ timeline
 - 原始论文：[Attention Is All You Need](https://arxiv.org/abs/1706.03762)
 - Hugging Face 文档：[https://huggingface.co/docs/transformers](https://huggingface.co/docs/transformers)
 - The Illustrated Transformer：[https://jalammar.github.io/illustrated-transformer](https://jalammar.github.io/illustrated-transformer)
+
+---
+
+## 端到端实践与评估
+
+- **实践任务**：手算一个极小注意力示例，并用代码验证张量形状、mask 与 softmax 维度。
+- **评估要求**：分别测序列长度变化对训练显存、首 token 延迟和解码吞吐的影响。
+- **失败边界**：O(n²) 只是标准注意力的主要瓶颈之一，实际还受 KV Cache、带宽、batch 与实现影响。
+
+实验记录至少包含问题定义、数据来源与版本、基线、配置、指标、失败样本和结论适用范围。只有结果可复现、误差可解释，模型改进才有可信度。

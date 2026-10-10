@@ -446,3 +446,13 @@ RISC-V V 扩展是 VLEN 无关编程，软件查询 VLEN 后按向量长度无�
 - RISC-V International 官网：https://riscv.org
 - RISC-V 规范卷一/卷二：https://github.com/riscv
 - The RISC-V Instruction Set Manual Volume I/II
+
+---
+
+## 系统实践与验收
+
+- **最小系统**：用模拟器运行最小汇编程序，观察指令编码、寄存器、调用约定与异常入口。
+- **验收方法**：区分 ISA、ABI、特权规范与具体 SoC 实现，保存反汇编和执行轨迹。
+- **边界与风险**：扩展集合并非处理器都支持；裸机、Linux 和不同工具链的启动假设不同。
+
+实践记录应包含版本、连接或部署拓扑、关键配置、原始现象、测量方法和恢复步骤，使别人能够在不同环境中复现并判断差异。
